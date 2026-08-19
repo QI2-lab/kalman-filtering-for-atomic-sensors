@@ -1,10 +1,6 @@
-# kalman-filtering-for-atomic-sensors
+## kalman-filtering-for-atomic-sensors
 
-This is a continuation of the kalman-filtering-for-atomic-sensors project. It contains the simulation of an atomic sensor, also in presence of correlations in measurement and intrinsic noise. It also implements the model that can be used to suboptimally estimate the magnetic field in a quantum sensor (using continuous quantum no-demolition measurement). There are a few versions of a Kalman Filter including Continuous-Continuous Extended Kalman Filter, Correlated Continuous-Continuous Extended Kalman Filter, Correlated Continuous-Continuous Extended Kalman Filter for a quantum model, Continuous-Discrete Extended Kalman Filter, Correlated Continuous-Discrete Extended Kalman Filter. The architecture of this application enables the user to run the simulations efficiently (parallelization) which is especially useful in a quantum case where we want to repeat the simulations many time to gather proper statistical sample. There are also additional features that can help with investigating the simulation stability as well as research different numerical methods.
-
----
-
-A high-performance Python framework for real-time continuous-discrete inference of optical magnetometer parameters. This package implements Continuous-Discrete Extended Kalman Filters (CD-EKF) and Continuous-Discrete Cubature Kalman Filters (CD-CKF), alongside Cramér-Rao Bound (CRB) statistical limits and Prediction Error Method (PEM) parameter estimators, to track atomic spin polarization and estimate the Larmor frequency.
+This is the kalman-filtering-for-atomic-sensors project. It contains the simulation of an atomic sensor, in presence of measurement and intrinsic noise.  There are a few versions of a Kalman Filter including Continuous-Discrete Extended Kalman Filter, Continuous-Discrete Cubature Kalman Filter alongside Cramér-Rao Bound (CRB) statistical limits and Prediction Error Method (PEM) parameter estimators, to track atomic spin polarization and estimate the Larmor frequency. The architecture of this application enables the user to run the simulations efficiently (parallelization). 
 
 ---
 
